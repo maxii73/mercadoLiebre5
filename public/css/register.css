@@ -1,0 +1,79 @@
+main{
+    background-color: #ebebeb;
+}
+
+.mainRegister{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+    padding-top: 10px;
+}
+
+.mainRegister input {
+    border: none;
+    padding: 13px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.mainRegister h5{
+    font-weight: bold; 
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.usuarioPerfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuarioPerfil li{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+}
+
+.usuarioPerfil div{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+}
+
+.intereses li {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .buttons{
+    display: flex;
+    
+  }
+
+  .buttons button{
+    background-color: rgba(8, 8, 162, 0.864);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    margin: 30px;
+    border-radius: 10px;
+
+  }
+
+  .subtitulosRegister{
+    font-weight: bold;
+  }
+
+
